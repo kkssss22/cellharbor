@@ -1,0 +1,10 @@
+{
+  "name": "cellharbor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Beginner-friendly Excel companion with a guided paste-to-table wizard.",
+  "scripts": {"dev":"node scripts/serve.mjs","test":"node --test","build":"node scripts/build.mjs"},
+  "engines": {"node": ">=22"},
+  "license": "MIT"
+}

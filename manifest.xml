@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>8b086e23-07c6-4d10-b15c-dab7ec33280f</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>kkssss22</ProviderName>
+  <DefaultLocale>zh-CN</DefaultLocale>
+  <DisplayName DefaultValue="格子助手 CellHarbor"/>
+  <Description DefaultValue="给 Excel 新手的粘贴排表、数据清理与统计助手。先预览，再应用。"/>
+  <IconUrl DefaultValue="https://kkssss22.github.io/cellharbor/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://kkssss22.github.io/cellharbor/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://github.com/kkssss22/cellharbor/issues"/>
+  <AppDomains><AppDomain>https://kkssss22.github.io</AppDomain></AppDomains>
+  <Hosts><Host Name="Workbook"/></Hosts>
+  <Requirements><Sets DefaultMinVersion="1.4"><Set Name="ExcelApi"/></Sets></Requirements>
+  <DefaultSettings><SourceLocation DefaultValue="https://kkssss22.github.io/cellharbor/?office=1"/></DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
